@@ -33,7 +33,13 @@ boab is currently a seedling program. Perhaps someday, with love and care, it wi
 
 ## License
 
-GNU AGPL version 3 or, at your option, any later version.
+boab is licensed under GNU AGPL version 3 or, at your option, any later version.
+
+## Libraries
+
+boab makes use of the following libraries:
+
+- [picocli](https://picocli.info/) - Apache License 2.0
 
 ## See also
 
