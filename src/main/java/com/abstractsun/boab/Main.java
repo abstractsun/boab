@@ -87,7 +87,6 @@ public class Main implements Callable<Integer> {
                 return 1;
             }
             else {
-                // TODO: Figure out why this doesn't work with gradle
                 System.out.println(String.format("workspace root: %1$s", workspaceRoot.getAbsoluteFile().toString()));
                 String[] command = Arrays.copyOfRange(args, 1, args.length);
                 ProcessBuilder pb = new ProcessBuilder(command)
