@@ -48,10 +48,10 @@ For the cross platform jar, simply run `./gradlew build` and get `build/libs/boa
 
 For an [Eclipse](https://www.eclipse.org/downloads/) IDE workspace, use `./gradlew eclipse` (or `gradle.bat eclipse` on cmd).
 
-A statically linked native executable can nontrivially be produced by feeding boab.jar into [GraalVM](https://www.graalvm.org/):
+A native executable can nontrivially be produced by feeding boab.jar into [GraalVM](https://www.graalvm.org/):
 
 ```sh
 # Some prerequisite dependencies may be required for compilation
 cd /path/to/graalvm-ce-java11-x.y.z/bin
-./native-image --static -jar /path/to/boab.jar /desired/path/to/boab
+./native-image -jar /path/to/boab.jar /desired/path/to/boab
 ```
