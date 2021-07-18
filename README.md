@@ -43,7 +43,7 @@ boab makes use of the following libraries:
 
 ## See also
 
-- [jenv](https://github.com/jenv/jenv/) - Alternative to setting `JAVA_HOME` that can be set on a per-directory basis (substitute `.bash_profile` for `.bashrc` as needed)
+- [jenv](https://github.com/jenv/jenv/) - Alternative to setting `JAVA_HOME` that can be set on a per-directory basis (substitute `.bash_profile` with `.bashrc` as needed)
 - `pushd`, `popd`, `dirs` - bash builtins for navigating directories like a stack/queue
 
 ## Compiling
